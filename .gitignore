@@ -1,0 +1,10 @@
+
+*.pgn
+
+.ipynb_checkpoints/game extraction-checkpoint.ipynb
+.ipynb_checkpoints/learning-the-rules-checkpoint.ipynb
+.spyproject/codestyle.ini
+.spyproject/encoding.ini
+.spyproject/vcs.ini
+.spyproject/workspace.ini
+*.p
