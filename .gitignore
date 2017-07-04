@@ -8,3 +8,5 @@
 .spyproject/vcs.ini
 .spyproject/workspace.ini
 *.p
+.ipynb_checkpoints/initial modeling-checkpoint.ipynb
+.ipynb_checkpoints/Generating Data-checkpoint.ipynb
