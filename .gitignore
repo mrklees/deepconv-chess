@@ -10,3 +10,6 @@
 *.p
 .ipynb_checkpoints/initial modeling-checkpoint.ipynb
 .ipynb_checkpoints/Generating Data-checkpoint.ipynb
+data/A00-139_first_100.npz
+data/A00-139_first_1000.npz
+first_1000_games.npz
