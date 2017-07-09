@@ -1,0 +1,30 @@
+%%   References
+
+@Preamble{"\def\germ{\frak} \def\scr{\cal}
+ \ifx\documentclass\undefinedcs
+      \def\bf{\fam\bffam\tenbf}\def\rm{\fam0\tenrm}\fi
+                          % f**k-amstex!
+ \def\defaultdefine#1#2{\expandafter\ifx\csname#1\endcsname\relax
+ \expandafter\def\csname#1\endcsname{#2}\fi}
+ \defaultdefine{Bbb}{\bf}   \defaultdefine{frak}{\bf}
+  \defaultdefine{=}{\B}   % doublef**k-amstex!!
+  \defaultdefine{mathfrak}{\frak}
+       \defaultdefine{mathbb}{\bf}
+       \defaultdefine{mathcal}{\cal}
+      \defaultdefine{beth}{BETH}\defaultdefine{cal}{\bf}
+     \def\bbfI{{\Bbb I}}   \def\mbox{\hbox}  \def\text{\hbox}
+   \def\om{\omega}    \def\Cal#1{{\bf #1}} \def\pcf{pcf}
+        \defaultdefine{cf}{cf}
+    \defaultdefine{reals}{{\Bbb R}} \defaultdefine{real}{{\Bbb R}}
+   \def\restriction{{|}}  \def\club{CLUB}
+   \def\w{\omega} \def\exist{\exists}
+   \def\se{{\germ se}}     \def\bb{{\bf b}}
+   \def\equivalence{\equiv}
+   \let\lt<  \let\gt>
+           "}
+
+@misc{oshri2016predicting,
+  title={Predicting moves in chess using convolutional neural networks},
+  author={Oshri, Barak and Khandwala, Nishith}
+},
+
