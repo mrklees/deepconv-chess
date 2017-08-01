@@ -17,3 +17,5 @@ data/A00-139_first_100000.npz
 data/A00-139_first_10000.npz
 .ipynb_checkpoints/Convolutional Model-checkpoint.ipynb
 __pycache__/temp_model.cpython-36.pyc
+.ipynb_checkpoints/7 Convolutional Models-checkpoint.ipynb
+.ipynb_checkpoints/Going Deep-checkpoint.ipynb

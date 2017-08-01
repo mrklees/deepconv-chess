@@ -130,10 +130,10 @@ def ip_results_to_np(results):
     return np.concatenate(boards, axis=0), np.concatenate(targets, axis=0)
 
 if __name__ == "__main__":
-    with open('data/KingBase2017-A00-A39.pgn', encoding='latin1') as pgn:
-        num_games=100000
+    with open('../data/KingBase2017-A00-A39.pgn', encoding='latin1') as pgn:
+        num_games=50000
         print("Recording the first {} games as matrices...".format(num_games))
         results = wrangle_data_ip(num_games=num_games, save_file=True)
         boards, targets = ip_results_to_np(results)
         print("Writing {} positions to file".format(boards.shape[0]))
-        np.savez_compressed('data/A00-139_first_{}'.format(num_games), boards, targets)
+        np.savez_compressed('../data/A00-139_first_{}'.format(num_games), boards, targets)
