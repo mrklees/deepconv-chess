@@ -70,9 +70,3 @@ def single_piece_selector_data(bs, ms, piece):
     y = np.apply_along_axis(func1d=convert_coord, axis=1, arr=piece_ms)
     print("The {} Move Selector data set contains {} boards".format(pieces[int(piece)], piece_ms.shape[0]))
     return piece_bs.astype('int'), y.reshape(y.shape[0], 64)
-
-'''
-
-'''
-
-if __name__ == "__main__":
