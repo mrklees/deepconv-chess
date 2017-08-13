@@ -34,7 +34,7 @@ def b_to_w(boards):
 
 # Makes corresponding changes to the target data for changing black
 # and white position. 
-def convert_colors(b=b_train, t=t_train):
+def convert_colors(b, t):
     move_made_by = t[:, 0]
     bbs = b[(move_made_by == "b")]
     bms = t[(move_made_by == 'b')]
